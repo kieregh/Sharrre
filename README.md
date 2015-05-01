@@ -28,13 +28,16 @@ kimsQ/Rb 기반 SNS 공유 위젯 -  [jQuery Sharrre Plugin] (http://www.sharrre
     <meta name="twitter:description" content="<?php echo strip_tags($g['meta_des'])?>" />
     <meta name="twitter:image:src" content="<?php echo strip_tags($g['meta_img'])?>" />
 ```
-5. 아래의 파일이 있는지 체크
- - ./plugins/sharrre/1.3.5/sharrre.php ( 구글 + 공유시 필요)
+
+## Check Point
+ 1. 아래의 파일이 있는지 체크
+ ./plugins/sharrre/1.3.5/sharrre.php ( 구글 + 공유시 필요)
 
  만약, 위 파일이  없는 경우 아래의 파일을 서버의 해당 폴더에 업로드
  
  [sharrre.php](https://github.com/kimsQ/rb/commit/232a493499f9b83b199e9546ddd374bfffd6dafb)
  
+ 2. 서버에 curl 이 설치되어 있는지 체크 
  
  기타 문의사항은 [이슈](https://github.com/kieregh/Sharrre/issues)에 등록해주세요.
  
