@@ -37,6 +37,7 @@ kimsQ/Rb 기반 SNS 공유 위젯 -  [jQuery Sharrre Plugin] (http://www.sharrre
     <meta name="twitter:description" content="<?php echo strip_tags($g['meta_des'])?>" />
     <meta name="twitter:image:src" content="<?php echo strip_tags($g['meta_img'])?>" />
 ```
+보다 자세한 내용은 [여기](http://www.kimsq.co.kr/market/785/) 를 참고해주세요.
 
 기타 문의사항은 [이슈](https://github.com/kieregh/Sharrre/issues)에 등록해주세요.
  
